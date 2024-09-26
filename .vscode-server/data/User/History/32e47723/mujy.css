@@ -1,0 +1,32 @@
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    text-align: center;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}

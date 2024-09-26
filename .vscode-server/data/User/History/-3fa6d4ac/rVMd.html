@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Book Store{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><select><option>THỂ LOẠI</option></select></li>
+                <li><a href="#">HỖ TRỢ KHÁCH HÀNG</a></li>
+                <li><a href="#">TÁC PHẨM NỔI BẬT</a></li>
+                <li><a href="#">TÁC GIẢ TIÊU BIỂU</a></li>
+            </ul>
+        </nav>
+        <div class="user-controls">
+            <select>
+                <option>Ngôn ngữ</option>
+                <option>Tiếng Việt</option>
+                <option>Tiếng Anh</option>
+            </select>
+            <button>Đăng Nhập</button>
+            <button>Đăng Ký</button>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>NHÀ SÁCH ONLINE</h3>
+            <p>(Hoạt động từ 8h - 17h)</p>
+            <p>Gọi đặt hàng: 123xxxxxxx</p>
+            <p>Email: hotro@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+            <ul>
+                <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                <li><a href="#">Phương thức thanh toán</a></li>
+                <li><a href="#">Phương thức vận chuyển</a></li>
+                <li><a href="#">Chính sách đổi trả</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

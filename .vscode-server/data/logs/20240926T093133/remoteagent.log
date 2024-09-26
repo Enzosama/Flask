@@ -1,0 +1,30 @@
+2024-09-26 09:31:34.031 [info] 
+
+
+
+
+2024-09-26 09:31:34.040 [info] Extension host agent started.
+2024-09-26 09:31:34.077 [info] Started initializing default profile extensions in extensions installation folder. file:///teamspace/studios/this_studio/.vscode-server/extensions
+2024-09-26 09:31:34.091 [info] Completed initializing default profile extensions in extensions installation folder. file:///teamspace/studios/this_studio/.vscode-server/extensions
+2024-09-26 09:31:34.692 [info] [<unknown>][1d914fbf][ManagementConnection] New connection established.
+2024-09-26 09:31:34.709 [info] [<unknown>][98fa4d67][ExtensionHostConnection] New connection established.
+2024-09-26 09:31:34.810 [info] [<unknown>][98fa4d67][ExtensionHostConnection] <2645> Launched Extension Host Process.
+2024-09-26 09:31:57.552 [info] Getting Manifest... ms-python.python
+2024-09-26 09:31:57.575 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","external":"file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","path":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-26 09:31:57.888 [info] Getting Manifest... ms-python.vscode-pylance
+2024-09-26 09:31:57.896 [info] Getting Manifest... ms-python.debugpy
+2024-09-26 09:31:57.908 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","external":"file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","path":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-26 09:31:57.909 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","external":"file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","path":"/teamspace/studios/this_studio/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-26 09:31:59.167 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1022ms.
+2024-09-26 09:31:59.229 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1079ms.
+2024-09-26 09:31:59.295 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 1125ms.
+2024-09-26 09:32:00.354 [info] Extracted extension to file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-09-26 09:32:00.364 [info] Renamed to /teamspace/studios/this_studio/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-09-26 09:32:02.903 [info] Extracted extension to file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64: ms-python.python
+2024-09-26 09:32:02.914 [info] Renamed to /teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64
+2024-09-26 09:32:06.823 [info] Extracted extension to file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2: ms-python.vscode-pylance
+2024-09-26 09:32:06.836 [info] Renamed to /teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2
+2024-09-26 09:32:06.862 [info] Extension installed successfully: ms-python.debugpy file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json
+2024-09-26 09:32:06.862 [info] Extension installed successfully: ms-python.python file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json
+2024-09-26 09:32:06.862 [info] Extension installed successfully: ms-python.vscode-pylance file:///teamspace/studios/this_studio/.vscode-server/extensions/extensions.json
+2024-09-26 09:36:34.040 [info] New EH opened, aborting shutdown

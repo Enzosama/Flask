@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Book List{% endblock %}
+
+{% block content %}
+    <div class="container book-container">
+        <h2>FLASH SALE</h2>
+        <div class="row">
+            {% for book in books.items %}
+            <div class="col-md-3">
+                <div class="book">
+                    <a href="#">
+                        <img src="/{{ book.cover_image }}" alt="{{ book.title }}" class="book-image">
+                        <span class="discount-badge">-{{ book.discount }}%</span>
+                    </a>
+                    <div class="book-details">
+                        <h3 class="book-title">{{ book.title }}</h3>
+                        <p class="book-author">{{ book.author }}</p>
+                        <p class="book-price">{{ book.price }} VND</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="pagination">
+        {% if books.has_prev %}
+            <a href="{{ url_for('home', page=books.prev_num) }}" class="button">Previous</a>
+        {% endif %}
+        {% if books.has_next %}
+            <a href="{{ url_for('home', page=books.next_num) }}" class="button">Next</a>
+        {% endif %}
+    </div>
+{% endblock %}

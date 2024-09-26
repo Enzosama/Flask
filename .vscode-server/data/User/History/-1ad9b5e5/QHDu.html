@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Books</h1>
+    <div class="book-grid">
+        {% for book in books.items %}
+            <div class="book-item">
+                <h2>{{ book.title }} by {{ book.author }}</h2>
+                <p>Price: ${{ book.price }}</p>
+                <img src="/{{ book.cover_image }}" alt="{{ book.title }}">
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="pagination">
+        {% if books.has_prev %}
+            <a href="{{ url_for('home', page=books.prev_num) }}" class="button">Previous</a>
+        {% endif %}
+        {% if books.has_next %}
+            <a href="{{ url_for('home', page=books.next_num) }}" class="button">Next</a>
+        {% endif %}
+    </div>
+</body>
+</html>

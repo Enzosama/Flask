@@ -1,0 +1,21 @@
+2024-09-26 15:44:56.826 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-09-26 15:44:56.826 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-09-26 15:44:56.826 [info] Experiment 'pythonTestAdapter' is active
+2024-09-26 15:44:56.826 [warning] Dir "/teamspace/studios/this_studio/.pixi/envs" is not watchable (directory does not exist)
+2024-09-26 15:44:56.953 [info] Default formatter is set to null for workspace /teamspace/studios/this_studio
+2024-09-26 15:44:57.287 [info] Python interpreter path: /home/zeus/miniconda3/envs/cloudspace/bin/python
+2024-09-26 15:44:57.749 [info] > pyenv which python
+2024-09-26 15:44:57.749 [info] cwd: .
+2024-09-26 15:45:07.034 [info] Send text to terminal: /home/zeus/miniconda3/envs/cloudspace/bin/python /teamspace/studios/this_studio/app.py
+2024-09-26 15:45:07.467 [info] CreateEnv Trigger - Skipping for /teamspace/studios/this_studio/app.py
+2024-09-26 15:45:09.226 [info] Starting Pylance language server.
+2024-09-26 15:45:09.233 [info] > conda info --json
+2024-09-26 15:48:12.995 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 15:50:01.587 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 15:51:40.341 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 15:52:34.232 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 15:52:42.251 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 15:54:44.532 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 16:04:04.092 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 16:05:46.858 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py
+2024-09-26 16:09:45.975 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py

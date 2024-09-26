@@ -1,0 +1,258 @@
+        /* CSS cũ, giữ nguyên */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ... (các style cũ khác) ... */
+
+        /* CSS mới */
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 5px 15px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .search-bar button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+        }
+
+        .navbar-nav {
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .nav-item {
+            text-align: center;
+        }
+
+        .nav-link {
+            color: #333;
+            padding: 10px 15px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .nav-link:hover {
+            border-bottom: 2px solid #007bff;
+        }
+
+        .user-controls {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .user-controls select {
+            margin-right: 10px;
+        }
+
+        .user-controls button {
+            padding: 5px 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+
+        .book-container {
+            padding: 20px;
+        }
+
+        .book-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .book-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .book-author {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    text-align: center;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-container, .register-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2, .register-container h2 {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+}
+
+.user-controls select {
+    margin-right: 10px;
+}
+
+.user-controls button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Book List{% endblock %}
+
+{% block content %}
+    <h1>Books</h1>
+    <div class="book-grid">
+        {% for book in books.items %}
+            <div class="book-item">
+                <h2>{{ book.title }} by {{ book.author }}</h2>
+                <p>Price: ${{ book.price }}</p>
+                <img src="/{{ book.cover_image }}" alt="{{ book.title }}">
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="pagination">
+        {% if books.has_prev %}
+            <a href="{{ url_for('home', page=books.prev_num) }}" class="button">Previous</a>
+        {% endif %}
+        {% if books.has_next %}
+            <a href="{{ url_for('home', page=books.next_num) }}" class="button">Next</a>
+        {% endif %}
+    </div>
+{% endblock %}
