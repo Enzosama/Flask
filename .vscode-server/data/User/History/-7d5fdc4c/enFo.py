@@ -1,14 +1,34 @@
 from flask import Flask, render_template, request, session, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
 from config import Config
 from middle_secure import auth
 import bcrypt
 import os
-from models import db, User, Book
-from data_loader import load_sample_data
+from data_loader import init_db
 
 app = Flask(__name__)
 app.config.from_object(Config)
-db.init_app(app)
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
+    password = db.Column(db.String(100), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
+
+    def __init__(self, username, email, password, name):
+        self.username = username
+        self.email = email
+        self.password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+        self.name = name
+
+class Book(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100), nullable=False)
+    author = db.Column(db.String(100), nullable=False)
+    price = db.Column(db.Float, nullable=False)
+    cover_image = db.Column(db.String(200))
 
 @app.route('/logout')
 @auth
@@ -118,8 +138,20 @@ def profile():
 def init_db():
     db.create_all()
 
+    if Book.query.count() == 0:
+        sample_books = [
+            Book(title="The Great Gatsby", author="F. Scott Fitzgerald", price=9.99, cover_image="static/data/gatsby.jpg"),
+            Book(title="To Kill a Mockingbird", author="Harper Lee", price=12.50, cover_image="static/data/mockingbird.jpg"),
+            Book(title="1984", author="George Orwell", price=10.99, cover_image="static/data/1984.jpg"),
+        ]
+        db.session.add_all(sample_books)
+        db.session.commit()
+
+
+
 if __name__ == '__main__':
     with app.app_context():
-        load_sample_data()
-    
+        init_db()
+        load_sample_data(db, Book)
+
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))

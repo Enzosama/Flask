@@ -1,14 +1,15 @@
 from flask import Flask, render_template, request, session, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
 from config import Config
 from middle_secure import auth
 import bcrypt
+from models import User, Book
 import os
-from models import db, User, Book
-from data_loader import load_sample_data
 
 app = Flask(__name__)
 app.config.from_object(Config)
-db.init_app(app)
+db = SQLAlchemy(app)
+
 
 @app.route('/logout')
 @auth
@@ -118,8 +119,11 @@ def profile():
 def init_db():
     db.create_all()
 
+
 if __name__ == '__main__':
     with app.app_context():
-        load_sample_data()
-    
+        init_db()
+        from data_loader import load_sample_data
+        load_sample_data(db, Book)
+
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))

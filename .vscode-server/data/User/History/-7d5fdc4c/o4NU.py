@@ -118,8 +118,11 @@ def profile():
 def init_db():
     db.create_all()
 
+
 if __name__ == '__main__':
     with app.app_context():
-        load_sample_data()
-    
+        init_db()
+        from data_loader import load_sample_data
+        load_sample_data(db, Book)
+
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))

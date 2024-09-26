@@ -1,6 +1,6 @@
 from models import db, Book
 
-def load_sample_data():
+def init_db():
     db.create_all()
     
     sample_books = [
@@ -29,4 +29,3 @@ def load_sample_data():
                 existing_book.cover_image = sample_book.cover_image
 
     db.session.commit()
-    print("Database initialized and sample data added or updated if necessary.")

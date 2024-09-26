@@ -1,6 +1,6 @@
-from models import db, Book
+from app import db, Book
 
-def load_sample_data():
+def init_db():
     db.create_all()
     
     sample_books = [
@@ -30,3 +30,6 @@ def load_sample_data():
 
     db.session.commit()
     print("Database initialized and sample data added or updated if necessary.")
+
+if __name__ == '__main__':
+    init_db()
