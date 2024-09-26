@@ -1,0 +1,104 @@
+2024-09-26 17:18:42.432 [info] Extension host with pid 3207 started
+2024-09-26 17:18:42.432 [error] Error: EEXIST: file already exists, open '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock'
+2024-09-26 17:18:42.435 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-26 17:18:42.449 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': The pid 1838 appears to be gone.
+2024-09-26 17:18:42.449 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': Deleting a stale lock.
+2024-09-26 17:18:42.465 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': Lock acquired.
+2024-09-26 17:18:43.626 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-26 17:18:43.627 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-09-26 17:18:43.628 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-09-26 17:18:43.628 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-26 17:18:44.566 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-09-26 17:18:44.566 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-09-26 17:18:45.190 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-09-26 17:18:45.191 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-09-26 17:18:45.582 [info] Eager extensions activated
+2024-09-26 17:18:45.583 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-26 17:18:45.583 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-26 17:26:29.673 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-26 17:26:35.940 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-09-26 17:29:52.237 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 17:29:52.238 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 17:29:52.238 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 17:29:52.238 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 18:57:34.961 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-09-26 18:57:34.963 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-26 18:57:35.005 [error] Canceled: Canceled
+	at new D (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at i.O [as value] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:952009)
+	at r.B (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:972587)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7281)
+	at F.h (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-09-26 18:57:35.008 [error] Canceled: Canceled
+	at new D (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/github/dist/extension.js:2:322969)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/github/dist/extension.js:2:323928
+	at i.value (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:1060944)
+	at r.B (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:972587)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7281)
+	at F.h (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-09-26 18:57:35.015 [info] Extension host with pid 3207 exiting with code 0

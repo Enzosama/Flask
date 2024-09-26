@@ -1,0 +1,43 @@
+2024-09-26 18:39:38.535 [info] Extension host with pid 88484 started
+2024-09-26 18:39:38.535 [error] Error: EEXIST: file already exists, open '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock'
+2024-09-26 18:39:38.544 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-26 18:39:38.550 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e/vscode.lock': The lock does not look stale, elapsed: 548 ms, giving up.
+2024-09-26 18:39:38.565 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/60aa20e0dcf133be3fd05e0f1e205c8e-1/vscode.lock': Lock acquired.
+2024-09-26 18:39:39.613 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-26 18:39:39.614 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-09-26 18:39:39.614 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-09-26 18:39:39.615 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-26 18:39:40.770 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-09-26 18:39:40.771 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-09-26 18:39:42.516 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-09-26 18:39:42.517 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-09-26 18:39:42.799 [info] Eager extensions activated
+2024-09-26 18:39:42.799 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-26 18:39:42.800 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-26 18:45:00.236 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-26 18:54:49.481 [error] Error: Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/normalizeSelection.py", line 273, in <module>
+    result = traverse_file(
+  File "/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/normalizeSelection.py", line 234, in traverse_file
+    which_line_next = get_next_block_lineno(should_run_top_blocks)
+  File "/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/normalizeSelection.py", line 244, in get_next_block_lineno
+    last_ran_lineno = int(which_line_next[-1].end_lineno)
+IndexError: list index out of range
+
+	at s (/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/out/client/extension.js:2:253248)
+	at Socket.<anonymous> (/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/out/client/extension.js:2:253544)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-09-26 18:54:51.086 [error] Error: Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/normalizeSelection.py", line 273, in <module>
+
+	at s (/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/out/client/extension.js:2:253248)
+	at Socket.<anonymous> (/teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/out/client/extension.js:2:253544)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
