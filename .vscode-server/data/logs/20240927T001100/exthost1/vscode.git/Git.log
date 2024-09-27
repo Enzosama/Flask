@@ -1,0 +1,82 @@
+2024-09-27 00:11:14.058 [info] [main] Log level: Info
+2024-09-27 00:11:14.058 [info] [main] Validating found git in: "git"
+2024-09-27 00:11:14.058 [info] [main] Using git "2.42.0" from "git"
+2024-09-27 00:11:14.058 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-27 00:11:14.059 [info] [Model][openRepository] Opened repository: /teamspace/studios/this_studio
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-27 00:11:14.059 [info] > git config --get commit.template [6ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-27 00:11:14.059 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-27 00:11:14.059 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-27 00:11:14.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [179ms]
+2024-09-27 00:11:14.683 [info] > git check-ignore -v -z --stdin [42ms]
+2024-09-27 00:11:14.752 [info] > git ls-files --stage -- /teamspace/studios/this_studio/app.py [9ms]
+2024-09-27 00:11:14.842 [info] > git cat-file -s 7b6af0a3371ac6a84623d1851233b538524ebe34 [87ms]
+2024-09-27 00:11:14.883 [info] > git show --textconv :app.py [143ms]
+2024-09-27 00:11:41.128 [info] > git status -z -uall [28046ms]
+2024-09-27 00:11:41.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-09-27 00:11:41.168 [info] > git config --get commit.template [7ms]
+2024-09-27 00:11:41.169 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2024-09-27 00:11:41.169 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-27 00:11:41.187 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2024-09-27 00:11:41.202 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2024-09-27 00:11:41.202 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-27 00:11:41.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-09-27 00:11:41.217 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-09-27 00:11:41.227 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-09-27 00:11:41.259 [info] > git diff --name-status -z --diff-filter=ADMR c05eedfad51b7dc04d791da42f47791d84b8fb9e...refs/remotes/origin/main [26ms]
+2024-09-27 00:11:41.455 [info] > git fetch [313ms]
+2024-09-27 00:11:41.462 [info] > git status -z -uall [236ms] (cancelled)
+2024-09-27 00:11:41.475 [info] > git config --get commit.template [14ms]
+2024-09-27 00:11:41.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-27 00:11:43.223 [info] > git ls-files --stage -- /teamspace/studios/this_studio/app.py [6ms]
+2024-09-27 00:11:43.230 [info] > git cat-file -s 7b6af0a3371ac6a84623d1851233b538524ebe34 [3ms]
+2024-09-27 00:11:43.481 [info] > git show --textconv :app.py [6ms]
+2024-09-27 00:11:43.714 [info] > git status -z -uall [2231ms]
+2024-09-27 00:11:43.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-27 00:11:43.750 [info] > git config --local branch.main.vscode-merge-base [21ms]
+2024-09-27 00:11:43.750 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-27 00:11:43.763 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-09-27 00:11:43.775 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-27 00:11:43.775 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-27 00:12:44.245 [info] > git show --textconv :data_loader.py [7ms]
+2024-09-27 00:12:44.246 [info] > git ls-files --stage -- /teamspace/studios/this_studio/data_loader.py [5ms]
+2024-09-27 00:12:44.251 [info] > git cat-file -s 01d9b59583196558aa9e1c640420b56a06d91cd9 [3ms]
+2024-09-27 00:12:48.933 [info] > git show --textconv :app.py [10ms]
+2024-09-27 00:12:48.934 [info] > git ls-files --stage -- /teamspace/studios/this_studio/app.py [7ms]
+2024-09-27 00:12:48.941 [info] > git cat-file -s 7b6af0a3371ac6a84623d1851233b538524ebe34 [5ms]
+2024-09-27 00:12:52.571 [info] > git ls-files --stage -- /teamspace/studios/this_studio/models.py [5ms]
+2024-09-27 00:12:52.575 [info] > git show --textconv :models.py [12ms]
+2024-09-27 00:12:52.597 [info] > git cat-file -s a078e94c92464a22808ea99dc85aafd4ede128c2 [23ms]
+2024-09-27 00:14:43.806 [info] > git fetch [83ms]
+2024-09-27 00:14:43.812 [info] > git config --get commit.template [2ms]
+2024-09-27 00:14:43.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-27 00:14:45.082 [info] > git status -z -uall [1264ms]
+2024-09-27 00:14:45.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-27 00:14:45.093 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-27 00:14:45.093 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-27 00:14:45.099 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-27 00:14:45.103 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-27 00:14:45.103 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-27 00:14:45.517 [info] > git ls-files --stage -- /teamspace/studios/this_studio/models.py [6ms]
+2024-09-27 00:14:45.523 [info] > git cat-file -s a078e94c92464a22808ea99dc85aafd4ede128c2 [4ms]
+2024-09-27 00:14:45.766 [info] > git show --textconv :models.py [5ms]
+2024-09-27 00:16:03.735 [info] > git config --get commit.template [3ms]
+2024-09-27 00:16:03.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-27 00:16:04.969 [info] > git status -z -uall [1228ms]
+2024-09-27 00:16:04.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-27 00:16:04.979 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-27 00:16:04.979 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-27 00:16:04.984 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-27 00:16:04.988 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-27 00:16:04.988 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

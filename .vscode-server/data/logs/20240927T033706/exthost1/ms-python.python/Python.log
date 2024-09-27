@@ -1,0 +1,11 @@
+2024-09-27 03:37:13.689 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-09-27 03:37:13.689 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-09-27 03:37:13.689 [info] Experiment 'pythonTestAdapter' is active
+2024-09-27 03:37:13.689 [warning] Dir "/teamspace/studios/this_studio/.pixi/envs" is not watchable (directory does not exist)
+2024-09-27 03:37:13.781 [info] Default formatter is set to null for workspace /teamspace/studios/this_studio
+2024-09-27 03:37:14.064 [info] Python interpreter path: /home/zeus/miniconda3/envs/cloudspace/bin/python
+2024-09-27 03:37:14.475 [info] > pyenv which python
+2024-09-27 03:37:14.475 [info] cwd: .
+2024-09-27 03:37:27.073 [info] Starting Pylance language server.
+2024-09-27 03:37:27.078 [info] > conda info --json
+2024-09-27 05:34:04.118 [info] Discover tests for workspace name: this_studio - uri: /teamspace/studios/this_studio/app.py

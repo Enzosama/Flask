@@ -5,99 +5,15 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-d3c577a9-77d6-454c-8bf1-f476f91f21dc
-Extension host agent listening on /tmp/code-d3c577a9-77d6-454c-8bf1-f476f91f21dc
+Server bound to /tmp/code-18525fa8-5960-4ef8-9ea4-147fa6367f40
+Extension host agent listening on /tmp/code-18525fa8-5960-4ef8-9ea4-147fa6367f40
 
-[17:18:38] 
-
-
+[06:45:10] 
 
 
-[17:18:38] Extension host agent started.
-[17:18:39] [<unknown>][10e30725][ManagementConnection] New connection established.
-[17:18:39] [<unknown>][d0cdf6d7][ExtensionHostConnection] New connection established.
-[17:18:39] [<unknown>][d0cdf6d7][ExtensionHostConnection] <3207> Launched Extension Host Process.
-New EH opened, aborting shutdown
-[17:23:38] New EH opened, aborting shutdown
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[17:48:31] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[17:48:31] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[17:49:28] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[17:49:28] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[17:49:29] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[18:01:15] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:8080
-stack trace: Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
-[18:01:15] Error: connect ECONNREFUSED 127.0.0.1:8080
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
-  errno: -111,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 8080
-}
-[18:39:35] [<unknown>][60925523][ManagementConnection] New connection established.
-[18:39:35] [<unknown>][2f7ed1dd][ExtensionHostConnection] New connection established.
-[18:39:35] [<unknown>][2f7ed1dd][ExtensionHostConnection] <88484> Launched Extension Host Process.
-[18:52:42] [<unknown>][10e30725][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[18:52:57] [<unknown>][10e30725][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+
+
+[06:45:12] Extension host agent started.
+[06:45:13] [<unknown>][06bfe13b][ExtensionHostConnection] New connection established.
+[06:45:13] [<unknown>][925e5e92][ManagementConnection] New connection established.
+[06:45:13] [<unknown>][06bfe13b][ExtensionHostConnection] <2051> Launched Extension Host Process.

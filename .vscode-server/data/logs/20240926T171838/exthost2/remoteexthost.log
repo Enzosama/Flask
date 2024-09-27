@@ -41,3 +41,7 @@ IndexError: list index out of range
 	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
 	at Readable.push (node:internal/streams/readable:390:5)
 	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-09-26 19:12:27.390 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 19:12:27.391 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 19:12:27.391 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-26 19:12:27.391 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'

@@ -45,7 +45,7 @@ def register():
         if existing_user:
             return render_template('register.html', error="Email is already in use.")
         
-        hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+        hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
         new_user = User(username=username, email=email, password=hashed_password, name=name)
         db.session.add(new_user)
         db.session.commit()
