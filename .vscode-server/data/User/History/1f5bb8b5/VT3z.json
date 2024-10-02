@@ -1,0 +1,23 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "C_Cpp.addNodeAddonIncludePaths": true,
+    "C_Cpp_Runner.compilerArgs": [
+        "C:\\msys64\\mingw64\\bin"
+    ],
+    "grunt.autoDetect": "on",
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "debug.onTaskErrors": "showErrors",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": -2,
+    "security.promptForRemoteFileProtocolHandling": false,
+    "remote.SSH.remotePlatform": {
+        "ssh.lightning.ai": "linux",
+        "Enzo": "linux"
+    },
+    "workbench.colorCustomizations": {},
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false
+}

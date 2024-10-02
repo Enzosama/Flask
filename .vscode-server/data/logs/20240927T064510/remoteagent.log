@@ -7,3 +7,8 @@
 2024-09-27 06:45:13.020 [info] [<unknown>][06bfe13b][ExtensionHostConnection] New connection established.
 2024-09-27 06:45:13.021 [info] [<unknown>][925e5e92][ManagementConnection] New connection established.
 2024-09-27 06:45:13.104 [info] [<unknown>][06bfe13b][ExtensionHostConnection] <2051> Launched Extension Host Process.
+2024-09-27 06:50:12.227 [info] New EH opened, aborting shutdown
+2024-09-27 07:28:46.290 [info] [<unknown>][925e5e92][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-27 07:28:46.401 [info] [<unknown>][06bfe13b][ExtensionHostConnection] <2051> Extension Host Process exited with code: 0, signal: null.
+2024-09-27 07:28:46.402 [info] Last EH closed, waiting before shutting down
+2024-09-27 07:33:46.403 [info] Last EH closed, shutting down

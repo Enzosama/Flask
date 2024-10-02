@@ -228,9 +228,41 @@ def home():
     return render_template('index.html', books=books)
 
 @app.route('/book/<int:book_id>')
-def book_details(book_id):
+def book_detail(book_id):
     book = Book.query.get_or_404(book_id)
-    return render_template('book_details.html', book=book)
+    return render_template('book_detail.html', book=book)
+@app.route('/add-to-cart/<int:book_id>')
+@auth
+def add_to_cart(book_id):
+    book = Book.query.get_or_404(book_id)
+    if 'cart' not in session:
+        session['cart'] = []
+    
+    # Kiểm tra xem sách đã có trong giỏ hàng chưa
+    cart_item = next((item for item in session['cart'] if item['id'] == book_id), None)
+    
+    if cart_item:
+        # Nếu sách đã có trong giỏ hàng, tăng số lượng lên 1
+        cart_item['quantity'] += 1
+    else:
+        # Nếu sách chưa có trong giỏ hàng, thêm mới
+        session['cart'].append({
+            'id': book.id,
+            'title': book.title,
+            'price': book.price,
+            'quantity': 1
+        })
+    
+    session.modified = True
+    flash('Sách đã được thêm vào giỏ hàng', 'success')
+    return redirect(url_for('home'))
+
+
+@app.route('/category/<string:category_name>')
+def category(category_name):
+    # Lấy danh sách sách theo thể loại
+    books = Book.query.filter_by(category=category_name).all()
+    return render_template('category.html', books=books, category_name=category_name)
 
 @app.route('/profile')
 @auth

@@ -9,14 +9,11 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid d-flex flex-column" style="min-height: 100vh;">
         <header class="bg-light border-bottom">
             <div class="row py-2">
-                <div class="col-md-12">
-                    <form class="d-flex justify-content-end">
-                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn btn-primary" type="submit">Search</button>
-                    </form>
+                <div class="col-md-12 text-center">
+                    <h1 class="m-0">BOOKSTORE</h1>
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -31,9 +28,17 @@
                                     THỂ LOẠI
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Romance</a></li>
-                                    <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Huyền bí') }}">Huyền bí</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Khoa học viễn tưởng') }}">Khoa học viễn tưởng</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Kinh tế học') }}">Kinh tế học</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Phát triển bản thân') }}">Phát triển bản thân</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Quản trị nhân sự') }}">Quản trị nhân sự</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Tâm lý học') }}">Tâm lý học</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Tiểu thuyết') }}">Tiểu thuyết</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Tự truyện') }}">Tự truyện</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Văn học cổ điển') }}">Văn học cổ điển</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Văn học thiếu nhi') }}">Văn học thiếu nhi</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('category', category_name='Truyện tranh') }}">Truyện tranh</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -46,6 +51,12 @@
                                 <a class="nav-link" href="#">TÁC GIẢ TIÊU BIỂU</a>
                             </li>
                         </ul>
+                        <div class="d-flex justify-content-center">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Search</button>
+                            </form>
+                        </div>
                         <div class="d-flex align-items-center">
                             <select class="form-select me-2">
                                 <option>Ngôn ngữ</option>
@@ -54,7 +65,7 @@
                             </select>
                             {% if 'user_id' in session %}
                                 <a href="{{ url_for('cart') }}" class="btn btn-outline-primary me-2">
-                                    <i class="bi bi-cart"></i> Giỏ hàng
+                                    <i class="bi bi-cart"></i> 
                                 </a>
                                 <div class="dropdown">
                                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,7 +86,7 @@
             </nav>
         </header>
 
-        <main class="py-4">
+        <main class="py-4 flex-grow-1">
             {% block content %}
             {% endblock %}
         </main>

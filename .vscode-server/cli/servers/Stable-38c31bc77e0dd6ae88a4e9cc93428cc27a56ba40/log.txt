@@ -5,15 +5,15 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-18525fa8-5960-4ef8-9ea4-147fa6367f40
-Extension host agent listening on /tmp/code-18525fa8-5960-4ef8-9ea4-147fa6367f40
+Server bound to /tmp/code-57d431e6-8062-427c-91c1-54deecba464c
+Extension host agent listening on /tmp/code-57d431e6-8062-427c-91c1-54deecba464c
 
-[06:45:10] 
-
-
+[17:26:07] 
 
 
-[06:45:12] Extension host agent started.
-[06:45:13] [<unknown>][06bfe13b][ExtensionHostConnection] New connection established.
-[06:45:13] [<unknown>][925e5e92][ManagementConnection] New connection established.
-[06:45:13] [<unknown>][06bfe13b][ExtensionHostConnection] <2051> Launched Extension Host Process.
+
+
+[17:26:07] Extension host agent started.
+[17:26:07] [<unknown>][a87e8be3][ExtensionHostConnection] New connection established.
+[17:26:07] [<unknown>][0032697d][ManagementConnection] New connection established.
+[17:26:07] [<unknown>][a87e8be3][ExtensionHostConnection] <16849> Launched Extension Host Process.
